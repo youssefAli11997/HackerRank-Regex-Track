@@ -1,4 +1,4 @@
-\\ link : https://www.hackerrank.com/challenges/matching-word-boundaries/problem
+// link : https://www.hackerrank.com/challenges/matching-word-boundaries/problem
 public class Solution {    
 
     public static void main(String[] args) {
