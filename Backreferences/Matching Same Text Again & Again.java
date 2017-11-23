@@ -5,6 +5,7 @@ public class Solution {
         
         Regex_Test tester = new Regex_Test();
         tester.checker("^([a-z])(\\w)(\\s)(\\W)(\\d)(\\D)([A-Z])([a-zA-Z])([aeiouAEIOU])(\\S)\\1\\2\\3\\4\\5\\6\\7\\8\\9\\10$"); // Use \\ instead of using \ 
-    
+        // another solution
+      //tester.checker("^(([a-z])(\\w)(\\s)(\\W)(\\d)(\\D)([A-Z])([a-zA-Z])([aeiouAEIOU])(\\S))\\1$"); // Use \\ instead of using \ 
     }
 }
