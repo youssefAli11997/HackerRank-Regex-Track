@@ -12,8 +12,6 @@ public class Detect_HTML_Tags {
         Matcher matcher = pattern.matcher(code);
         while(matcher.find()){
             String tagName = matcher.group(1).trim();
-            if(tagName.length() == 0)
-                continue;
             tagSet.add(tagName);
         }
     }
@@ -35,7 +33,7 @@ public class Detect_HTML_Tags {
         int n = in.nextInt(); in.nextLine();
         String htmlCode = "";
 
-        String regex_Pattern = "<\\s*(\\w*).*?>";
+        String regex_Pattern = "<\\s*(\\w+).*?>";
         pattern = Pattern.compile(regex_Pattern);
 
         for(int i=0; i<n; i++){
