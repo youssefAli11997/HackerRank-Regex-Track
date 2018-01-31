@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Detect_HTML_links {
+public class Detect_HTML_Links {
 
     private static Pattern pattern;
 
