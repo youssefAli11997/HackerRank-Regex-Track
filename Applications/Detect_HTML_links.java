@@ -1,4 +1,4 @@
-//link: 
+//link: https://www.hackerrank.com/challenges/detect-html-links/problem
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
